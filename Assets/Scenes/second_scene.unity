@@ -1070,25 +1070,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: crystal_pf (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 2626571781776565683, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 5173479355925352733, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5173479355925352733, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 5173479355925352733, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 5173479355925352733, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 5173479355925352733, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1131,33 +1115,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
       propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 948092987}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.AudioSource, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103350754091676753, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
-      propertyPath: _onClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d7f3d9106bbf1419a38d65e7dc4b0c, type: 3}
 --- !u!4 &1985527712 stripped
