@@ -3,20 +3,23 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(BoxCollider2D))]
-public class OnClickAnimation : ColliderOnClickAction
+public class OnClickAttack : ColliderOnClickAction
 {
     private Animator _animator;
+    [SerializeField] private UnityEvent _onClickEvent;
 
     protected override void Initialize()
     {
-        OnClickAction = AnimateAction;
+        OnClickAction = AttackAction;
         _animator = GetComponent<Animator>();
     }
 
-    private void AnimateAction()
+    private void AttackAction()
     {
         _animator.SetTrigger("action_trigger");
+        _onClickEvent?.Invoke();
     }
 }
